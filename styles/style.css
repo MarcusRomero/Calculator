@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 20rem;
+    height: 24rem;
+    border-radius: 15px;
+}
+
+
+.monitor {
+    display: flex;
+    justify-content:space-around;
+    background-color: red;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.screenA {
+    background-color: aqua;
+    width: 90%;
+    height: 60px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.screenB {
+    background-color: rgb(104, 195, 195);
+    width: 90%;
+    height: 90px;
+    border-radius: 0px 0px 10px 10px;}
+
+
+
+.keys {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(5, 30px);
+    grid-gap: 3px;
+    margin: 10px;
+}
+
+.equal {
+    grid-column: span 2;
+    background-color: orange;
+}
